@@ -25,7 +25,7 @@ Checking connectivity with docker container registry.
 **Example**
 
 ``` ts
-import Registry from "@bitcodenetwork/dockeregistrysdk";
+import Registry from "@repoxcode/docker-registry";
 
 const registry = Registry({ hostname: "localhost", port: 5001 });
 
@@ -44,7 +44,7 @@ Get a list of catalogs in the container registry.
 **Example**
 
 ``` ts
-import Registry from "@bitcodenetwork/dockeregistrysdk";
+import Registry from "@repoxcode/docker-registry";
 
 const registry = Registry({ hostname: "localhost", port: 5001 });
 
@@ -64,7 +64,7 @@ Get a list of tags on a container, inside the container registry.
 **Example**
 
 ``` ts
-import Registry from "@bitcodenetwork/dockeregistrysdk";
+import Registry from "@repoxcode/docker-registry";
 
 const registry = Registry({ hostname: "localhost", port: 5001 });
 
@@ -83,7 +83,7 @@ Retrieving details from the data catalog inside the docker container registry.
 **Example**
 
 ``` ts
-import Registry from "@bitcodenetwork/dockeregistrysdk";
+import Registry from "@repoxcode/docker-registry";
 
 const registry = Registry({ hostname: "localhost", port: 5001 });
 
@@ -103,7 +103,7 @@ Retrieving details from the data catalog inside the docker container registry.
 **Example**
 
 ``` ts
-import Registry from "@bitcodenetwork/dockeregistrysdk";
+import Registry from "@repoxcode/docker-registry";
 
 const registry = Registry({ hostname: "localhost", port: 5001 });
 
@@ -126,7 +126,7 @@ Remove catalog from docker container registry.
 **Example**
 
 ``` ts
-import Registry from "@bitcodenetwork/dockeregistrysdk";
+import Registry from "@repoxcode/docker-registry";
 
 const registry = Registry({ hostname: "localhost", port: 5001 });
 
